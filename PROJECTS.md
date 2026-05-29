@@ -1,7 +1,7 @@
-# PROJECTS
+# 项目
 
-Only list project names and local paths here. Do not add status, todos, stack details, or architecture notes.
+这里只列项目名称和本地路径。不要添加状态、待办、技术栈细节或架构说明。
 
-| Name | Path |
+| 名称 | 路径 |
 | --- | --- |
 | harness-space | `/Users/zhihu/harness-space` |

@@ -1,21 +1,21 @@
-# Rules
+# 规则
 
-These are durable user-level rules for AI agents.
+这里放 AI 智能体应该长期遵循的用户级规则。
 
-Rules here apply across projects unless the current conversation or a project-local instruction overrides them.
+除非当前对话或项目本地指令覆盖它们，否则这些规则默认适用于所有项目。
 
-## Rule Files
+## 规则文件
 
-- `communication.md` - how to communicate and clarify.
-- `coding.md` - how to approach code changes.
-- `review.md` - how to review code.
+- `communication.md`：如何沟通、澄清和表达不确定性。
+- `coding.md`：如何处理代码改动。
+- `review.md`：如何做代码审查。
 
-## Loading
+## 加载方式
 
-Do not load every rule file by default. Read the relevant files for the current task.
+不要默认加载所有规则文件。只读取当前任务相关的文件。
 
-## Boundaries
+## 边界
 
-- Do not put project-specific commands, ports, architecture, or todos here.
-- Do not put temporary task instructions here.
-- Do not use rules to duplicate `SOUL.md`; rules describe behavior, not personality.
+- 不要把项目专属命令、端口、架构或待办放在这里。
+- 不要把临时任务指令放在这里。
+- 不要用规则重复 `SOUL.md` 的内容；规则描述行为，不描述人格。

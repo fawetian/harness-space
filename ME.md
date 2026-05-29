@@ -1,28 +1,28 @@
-# ME
+# 我
 
-## Identity
+## 身份
 
-- User handle on this machine: `zhihu`
-- Default language: Chinese
-- Current workspace root: `/Users/zhihu/harness-space`
+- 本机用户标识：`zhihu`
+- 默认语言：中文
+- 当前工作区根目录：`/Users/zhihu/harness-space`
 
-## Collaboration Preferences
+## 协作偏好
 
-- Prefer concise, practical answers.
-- Discuss direction first when the design is unclear.
-- Once the direction is agreed, implement directly.
-- Be explicit about uncertainty instead of pretending to know.
+- 偏好简洁、实用的回答。
+- 设计方向不清楚时，先讨论清楚再实现。
+- 方向达成一致后，直接落地实现。
+- 有不确定性时要明确说出来，不要假装知道。
 
-## Engineering Preferences
+## 工程偏好
 
-- Prefer simple, maintainable systems over clever abstractions.
-- Keep user-level context thin; put project-specific details inside each project.
-- Respect existing project conventions before introducing new ones.
-- Treat rules as durable defaults, not one-off task instructions.
+- 偏好简单、可维护的系统，而不是聪明但复杂的抽象。
+- 用户级上下文保持很薄；项目专属细节放回项目里。
+- 在引入新约定前，先尊重项目已有约定。
+- 把规则当作长期默认行为，而不是一次性任务说明。
 
-## To Fill Later
+## 后续补充
 
-- Preferred name:
-- Main languages and frameworks:
-- Common coding habits:
-- Review preferences:
+- 偏好的称呼：
+- 主要语言和框架：
+- 常见编码习惯：
+- 代码审查偏好：

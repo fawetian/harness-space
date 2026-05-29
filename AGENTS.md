@@ -1,26 +1,26 @@
-# User Harness Adapter
+# 用户级 Harness 适配器
 
-This is the user-level harness workspace. It provides global context for the user, not project-specific instructions.
+这是用户级 harness 工作区。它提供用户的全局上下文，不提供项目专属指令。
 
-## Read First
+## 优先读取
 
 1. `SOUL.md`
 2. `ME.md`
 3. `PROJECTS.md`
 4. `rules/README.md`
 
-Then read any task-relevant rule files under `rules/`.
+然后读取 `rules/` 下与当前任务相关的规则文件。
 
-## Priority
+## 优先级
 
-1. Explicit instructions in the current conversation.
-2. Project-local instructions in the target repository.
-3. User-level rules in this repository.
-4. User profile in `ME.md`.
-5. Voice and temperament in `SOUL.md`.
+1. 当前对话里的明确用户指令。
+2. 目标项目仓库里的项目本地指令。
+3. 当前仓库里的用户级规则。
+4. `ME.md` 里的用户画像。
+5. `SOUL.md` 里的语气和气质。
 
-If rules conflict, point out the conflict and follow the higher-priority source.
+如果规则冲突，指出冲突，并遵循优先级更高的来源。
 
-## Project Navigation
+## 项目导航
 
-Use `PROJECTS.md` only to find project paths. After entering a project, read its local agent instructions and follow them as the source of truth for that project.
+`PROJECTS.md` 只用于查找项目路径。进入项目后，读取项目本地的智能体指令，并把它们作为该项目的事实来源。

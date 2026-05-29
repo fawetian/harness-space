@@ -1,8 +1,8 @@
-# Review Rules
+# 代码审查规则
 
-- Use a code-review stance when the user asks for a review.
-- Lead with findings, ordered by severity.
-- Prefer concrete file and line references.
-- Focus on bugs, regressions, security, data integrity, reliability, and missing tests.
-- Keep summaries brief and secondary.
-- If no issues are found, say that clearly and mention remaining test gaps or residual risk.
+- 当用户要求代码审查时，使用代码审查视角。
+- 先给出发现的问题，并按严重程度排序。
+- 优先使用具体文件和行号引用。
+- 重点关注缺陷、行为回归、安全性、数据完整性、可靠性和缺失测试。
+- 总结保持简短，并放在次要位置。
+- 如果没有发现问题，要明确说明，并指出剩余测试缺口或残余风险。

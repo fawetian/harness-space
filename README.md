@@ -1,39 +1,39 @@
 # harness-space
 
-`harness-space` is a minimal user-level harness workspace for AI agents.
+`harness-space` 是一个极简的用户级 AI harness 工作区。
 
-Its job is to give different AI tools a shared starting point before they work with the user or enter a project repository. It answers a few global questions:
+它的作用是：在不同 AI 工具开始和用户协作、或者进入某个项目仓库之前，提供一个共享的起点。它回答几个全局问题：
 
-- Who is the user?
-- What voice and working temperament should the agent use?
-- Which local projects exist, and where are they?
-- What durable rules should agents follow across projects?
+- 用户是谁？
+- 智能体应该使用什么样的语气、气质和工作方式？
+- 本机有哪些项目，它们分别在哪里？
+- 智能体在所有项目里都应该遵循哪些长期规则？
 
-This repo is intentionally thin. It is not a project management system, a task tracker, a memory dump, or a copy of each project's docs. Project-specific context belongs inside the project repository.
+这个仓库刻意保持很薄。它不是项目管理系统，不是任务追踪器，不是记忆倾倒区，也不是各项目文档的副本。项目专属上下文应该放在对应项目仓库里。
 
-## Files
+## 文件
 
-- `SOUL.md` - the agent's durable voice, taste, and working temperament.
-- `ME.md` - stable context about the user and their preferences.
-- `PROJECTS.md` - a name-to-path index for local projects.
-- `rules/` - durable user-level behavior rules for agents.
-- `AGENTS.md` - adapter for Codex / OpenAI-style agents.
-- `CLAUDE.md` - adapter for Claude Code-style agents.
+- `SOUL.md`：智能体的长期语气、品味和工作气质。
+- `ME.md`：关于用户和用户偏好的稳定上下文。
+- `PROJECTS.md`：本机项目的名称到路径索引。
+- `rules/`：用户级的长期行为规则。
+- `AGENTS.md`：给 Codex / OpenAI 风格智能体使用的适配入口。
+- `CLAUDE.md`：给 Claude Code 风格智能体使用的适配入口。
 
-## How Agents Should Use This
+## 智能体应该如何使用
 
-1. Read the relevant adapter file for the current tool, such as `AGENTS.md` or `CLAUDE.md`.
-2. Load `SOUL.md`, `ME.md`, `PROJECTS.md`, and task-relevant files under `rules/`.
-3. If the task targets a project, use `PROJECTS.md` only to find the path.
-4. After entering that project, follow the project's own local instructions as the source of truth.
+1. 先读取当前工具对应的适配文件，例如 `AGENTS.md` 或 `CLAUDE.md`。
+2. 再读取 `SOUL.md`、`ME.md`、`PROJECTS.md`，以及 `rules/` 下和当前任务相关的规则文件。
+3. 如果任务指向某个项目，只用 `PROJECTS.md` 找到项目路径。
+4. 进入项目后，以项目自己的本地说明作为该项目的事实来源。
 
-## Boundary
+## 边界
 
-Keep this workspace small. Add only stable user-level context here:
+保持这个工作区小而清晰。这里只有稳定的用户级上下文：
 
-- user preferences,
-- global agent rules,
-- project names and paths,
-- tool adapters.
+- 用户偏好；
+- 全局智能体规则；
+- 项目名称和路径；
+- 不同 AI 工具的适配入口。
 
-Do not add project status, todos, architecture notes, commands, ports, secrets, or task plans here.
+不要在这里放项目状态、待办事项、架构说明、命令、端口、密钥或任务计划。

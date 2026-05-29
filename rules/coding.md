@@ -1,19 +1,19 @@
-# Coding Rules
+# 编码规则
 
-- Read the surrounding code and project-local instructions before editing.
-- Prefer existing project conventions over new abstractions.
-- Keep changes scoped to the user's request.
-- Prefer the minimum code that solves the actual problem.
-- Do not add speculative features, flexibility, configurability, or impossible-case handling.
-- Do not rewrite unrelated code just because it could be nicer.
-- Do not refactor adjacent code unless it is necessary for the task.
-- Preserve user changes and do not revert work you did not make.
-- Clean up only artifacts created by your own change, such as newly unused imports or variables.
-- Every changed line should trace back to the user's request.
-- Add comments only when they explain non-obvious intent.
-- For non-trivial work, define success criteria before or during implementation.
-- For bug fixes, prefer a reproducing test before the fix when practical.
-- For refactors, verify behavior before and after when practical.
-- Verify changes with the narrowest useful command, then broaden if risk warrants it.
-- Use judgment for trivial tasks; do not add process ceremony when the answer is obvious.
-- Put project-specific rules in the project repository, not this user-level workspace.
+- 编辑前先阅读周边代码和项目本地指令。
+- 优先遵循项目已有约定，而不是引入新的抽象。
+- 改动范围保持在用户请求之内。
+- 优先使用能解决真实问题的最小代码。
+- 不要添加未经请求的功能、灵活性、可配置性或不可能发生场景的处理。
+- 不要因为相邻代码可以更好就顺手重写。
+- 除非任务需要，否则不要重构相邻代码。
+- 保留用户已有改动，不要回退不是你做的工作。
+- 只清理由你的改动产生的残留物，例如新产生的未使用导入或变量。
+- 每一行改动都应该能追溯到用户请求。
+- 只有当注释能解释非显而易见的意图时，才添加注释。
+- 对非平凡任务，在实现前或实现过程中定义成功标准。
+- 修复缺陷时，在可行的情况下优先写出能复现问题的测试，再修复。
+- 重构时，在可行的情况下验证改动前后的行为。
+- 先用最窄的有效命令验证改动；如果风险需要，再扩大验证范围。
+- 对简单任务使用判断力；答案明显时不要增加流程仪式。
+- 项目专属规则放在项目仓库里，不要放进这个用户级工作区。

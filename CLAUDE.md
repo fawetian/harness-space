@@ -1,16 +1,16 @@
-# Claude Adapter
+# Claude 适配器
 
-This is a user-level harness workspace for shared AI context.
+这是用于共享 AI 上下文的用户级 harness 工作区。
 
-Read:
+先读取：
 
 1. `SOUL.md`
 2. `ME.md`
 3. `PROJECTS.md`
 4. `rules/README.md`
 
-Then load only the rule files under `rules/` that are relevant to the current task.
+然后只加载 `rules/` 下与当前任务相关的规则文件。
 
-Project-local `CLAUDE.md`, `AGENTS.md`, or other repository instructions override this user-level workspace.
+项目本地的 `CLAUDE.md`、`AGENTS.md` 或其他仓库指令优先于这个用户级工作区。
 
-Use `PROJECTS.md` only as a name-to-path index.
+`PROJECTS.md` 只作为项目名称到路径的索引使用。
